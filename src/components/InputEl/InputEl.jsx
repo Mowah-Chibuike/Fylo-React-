@@ -25,7 +25,7 @@ const InputEl = ({content, placeholder, lgButtonWidth, flexDirection, marginLeft
                 <p className="error">{message}</p>
             </div>
             
-            <Btn width={{sm: '100%', md:'100%', lg: lgButtonWidth}} text={content} left={marginLeft} right={marginRight} onClick={handleClick}/>
+            <Btn width={{base: '100%', md:'100%', lg: lgButtonWidth}} text={content} left={marginLeft} right={marginRight} onClick={handleClick}/>
         </div>
     )
 }

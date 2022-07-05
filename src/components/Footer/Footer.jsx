@@ -11,7 +11,7 @@ import './Footer.css';
 const Footer = () => {
     return(
         <Box
-        px={{sm: '2rem', lg: '4rem'}}
+        px={{base: '2rem', lg: '4rem'}}
         pt='3.5rem'
         backgroundColor='#07043b'
         color='white'
@@ -37,7 +37,7 @@ const Footer = () => {
                 display='flex'
                 alignItems='center'
                 flexDirection='row'
-                mt={{sm: '2rem', lg: '0rem'}}
+                mt={{base: '2rem', lg: '0rem'}}
                 mb='.75rem'>
                     <img src={phone} alt="" />
                     <Text
@@ -60,12 +60,12 @@ const Footer = () => {
                 <FooterBox text1='About us' text2='Jobs' text3='Press' text4='Blog' />
                 <FooterBox text1='Contact Us' text2='Terms' text3='Privacy' text4={undefined}/>
                 <Box
-                w={{sm: '100%', lg: '25%'}}
+                w={{base: '100%', lg: '25%'}}
                 pb='40px'
                 
                 display='flex'
                 flexDirection='row'
-                justifyContent={{sm: 'center', lg: 'flex-start'}}
+                justifyContent={{base: 'center', lg: 'flex-start'}}
                 alignItems='center'>
                     <FontAwesomeIcon className='social-icons' icon={faFacebookF}/>
                     <FontAwesomeIcon className='social-icons' icon={faTwitter}/>

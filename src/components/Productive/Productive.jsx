@@ -11,33 +11,33 @@ import './Productive.css'
 const Productive = () => {
     return(
         <Box
-        display='flex'
-        justifyContent='center'
-        flexDirection= {{sm: 'column', lg: 'row-reverse'}}
-        alignItems={{sm: 'center', lg: 'flex-start' }}
+        display={{lg:'flex'}}
+        justifyContent={{lg: 'center'}}
+        flexDirection= {{lg: 'row-reverse'}}
+        alignItems={{lg: 'flex-start' }}
         w='100%'
         px='30px'
         mt='5rem'
         pt={{lg: '10rem'}}
-        backgroundImage={{sm: bgImage, lg: bgImage2}}
+        backgroundImage={{base: bgImage, lg: bgImage2}}
         backgroundRepeat='no-repeat'
         backgroundSize='cover'
         backgroundPosition='top center'>
             
             <img className='second-image' src={second} alt="" />
             <Box
-            w={{sm: '100%', lg: '40%'}}
-            display= 'flex'
-            flexDirection='column'
-            justifyContent={{sm: 'center', lg: 'flex-start'}}
+            w={{base: '100%', lg: '40%'}}
+            display= {{lg: 'flex'}}
+            flexDirection={{lg: 'column'}}
+            justifyContent={{lg: 'flex-start'}}
             mr={{lg: '30px'}}>
             
             <Text 
             className='second-header' 
-            fontSize={{sm: '1.2rem', lg: '1.5rem'}}
-            textAlign={{ sm: 'center', lg: 'left'}}
+            fontSize={{base: '1.2rem', lg: '1.5rem'}}
+            textAlign={{ base: 'center', lg: 'left'}}
             color='#00002a'
-            mb={{sm: '1.5rem', lg: '1rem'}}>
+            mb={{base: '1.5rem', lg: '1rem'}}>
                 Stay productive, wherever you are</Text>
             
             <Text
@@ -60,11 +60,11 @@ const Productive = () => {
             justifyContent='center'
             alignItems='center'
             flexDirection='row'
-            width={{sm: '40%', lg: '35%'}}
+            width={{base: '40%', lg: '35%'}}
             textAlign={{lg: 'left'}}
             height='20px'
             pb='4px'
-            mx={{sm: 'auto', lg: '0px'}}
+            mx={{base: 'auto', lg: '0px'}}
             my='2.5rem'
             borderBottom='1px solid #53978a'>
                 <Text
@@ -84,7 +84,7 @@ const Productive = () => {
             borderRadius='7px'
             backgroundColor='white'
             boxShadow='0px 0px 15px 0.5px #e7e7e9'
-            mx={{sm: 'auto', lg: '0px'}}>
+            mx={{base: 'auto', lg: '0px'}}>
                 <img className='quotes' src={Quotes} alt="" />
                 <Text
                 className='testimonial'
