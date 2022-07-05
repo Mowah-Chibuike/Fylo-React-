@@ -10,9 +10,11 @@ const Hero = () => {
         <Box
         w='100%'
         pt={4}
+        className='hero-container'
         >
           <NavBar/>
           <Box 
+            className='hero-main'
             display={{lg:'flex'}}
             flexDirection={{lg: 'row-reverse'}}
             justifyContent={{lg:'center'}}
