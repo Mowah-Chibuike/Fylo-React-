@@ -13,10 +13,10 @@ const Hero = () => {
         >
           <NavBar/>
           <Box 
-            display='flex'
-            flexDirection={{sm: 'column', lg: 'row-reverse'}}
-            justifyContent='center'
-            alignItems='center'
+            display={{lg:'flex'}}
+            flexDirection={{lg: 'row-reverse'}}
+            justifyContent={{lg:'center'}}
+            alignItems={{lg:'center'}}
             w='100%' 
             pl='30px'
             pr='30px'
