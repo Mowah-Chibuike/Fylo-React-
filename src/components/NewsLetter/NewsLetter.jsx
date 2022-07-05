@@ -6,9 +6,9 @@ import './NewsLetter.css'
 const NewsLetter = () => {
     return (
         <Box
+        className='news'
         w='100%'
-        px={{sm: '2.5rem', lg: '5rem'}}
-        py={{sm: '3.5rem', lg: '5rem'}}
+        h='50%'
         backgroundColor='#575989'
         color='white'
         textAlign='center'

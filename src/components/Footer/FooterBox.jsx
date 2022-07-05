@@ -6,6 +6,7 @@ import FooterLink from './FooterLink';
 const FooterBox = ({text1, text2, text3, text4}) => {
     return(
         <Box
+        className='footer-box'
         mb={{sm:'2rem', lg: '4rem'}}
         w={{lg: '20%'}}
         h={{lg: '10rem'}}

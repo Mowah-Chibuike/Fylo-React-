@@ -1,3 +1,9 @@
+.prod-main {
+  background-image: url(/src/images/bg-curve-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
 .second-image {
   width: 100%;
   height: 50%;

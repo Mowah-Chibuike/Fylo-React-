@@ -1,7 +1,17 @@
+.news {
+  padding: 4rem 2.5rem;
+}
+
 .sign-up-header {
   font-family: "Raleway", sans-serif;
 }
 
 .sign-up-content {
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  .news {
+    padding: 5rem 4rem;
+  }
 }

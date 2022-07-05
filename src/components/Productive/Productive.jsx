@@ -11,6 +11,7 @@ import './Productive.css'
 const Productive = () => {
     return(
         <Box
+        className='prod-main'
         display={{sm:'flex', lg:'flex'}}
         justifyContent={{sm:'center', lg: 'center'}}
         flexDirection= {{sm:'column', lg: 'row-reverse'}}

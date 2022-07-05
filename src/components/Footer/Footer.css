@@ -1,7 +1,12 @@
+.footer {
+  padding: 32px;
+}
 .whiteLogo {
   height: 50px;
 }
-
+.footer-box {
+  margin-bottom: 32px;
+}
 .footer-link {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;

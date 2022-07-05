@@ -11,6 +11,7 @@ import './Footer.css';
 const Footer = () => {
     return(
         <Box
+        className='footer'
         px={{sm: '2rem', lg: '4rem'}}
         pt='3.5rem'
         backgroundColor='#07043b'
