@@ -11,18 +11,18 @@ import './Productive.css'
 const Productive = () => {
     return(
         <Box
-        display={{lg:'flex'}}
-        justifyContent={{lg: 'center'}}
-        flexDirection= {{lg: 'row-reverse'}}
-        alignItems={{lg: 'flex-start' }}
+        display={{sm:'flex', lg:'flex'}}
+        justifyContent={{sm:'center', lg: 'center'}}
+        flexDirection= {{sm:'column', lg: 'row-reverse'}}
+        alignItems={{sm:'center', lg: 'flex-start' }}
         w='100%'
         px='30px'
         mt='5rem'
-        pt={{lg: '10rem'}}
-        backgroundImage={{base: bgImage, lg: bgImage2}}
-        backgroundRepeat='no-repeat'
-        backgroundSize='cover'
-        backgroundPosition='top center'>
+        pt={{sm:'0px', lg: '10rem'}}
+        backgroundImage={{sm: bgImage, lg: bgImage2}}
+        backgroundRepeat={{sm: 'no-repeat', lg: 'no-repeat'}}
+        backgroundSize={{sm: 'cover', lg: 'cover'}}
+        backgroundPosition={{sm: 'top center', lg: 'top-center'}}>
             
             <img className='second-image' src={second} alt="" />
             <Box
@@ -34,10 +34,10 @@ const Productive = () => {
             
             <Text 
             className='second-header' 
-            fontSize={{base: '1.2rem', lg: '1.5rem'}}
-            textAlign={{ base: 'center', lg: 'left'}}
+            fontSize={{sm: '1.2rem', lg: '1.5rem'}}
+            textAlign={{ sm: 'center', lg: 'left'}}
             color='#00002a'
-            mb={{base: '1.5rem', lg: '1rem'}}>
+            mb={{sm: '1.5rem', lg: '1rem'}}>
                 Stay productive, wherever you are</Text>
             
             <Text
@@ -60,18 +60,18 @@ const Productive = () => {
             justifyContent='center'
             alignItems='center'
             flexDirection='row'
-            width={{base: '40%', lg: '35%'}}
-            textAlign={{lg: 'left'}}
+            width={{sm: '40%', lg: '35%'}}
+            textAlign={{sm:'center', lg: 'left'}}
             height='20px'
             pb='4px'
-            mx={{base: 'auto', lg: '0px'}}
+            mx={{sm: 'auto', lg: '0px'}}
             my='2.5rem'
             borderBottom='1px solid #53978a'>
                 <Text
                 color='#53978a'
                 mr='8px'
                 lineHeight='16px'
-                textAlign={{lg: 'left'}}>
+                textAlign={{sm:'center', lg: 'left'}}>
                     See how Fylo works
                 </Text>
                 <img src={arrow} alt="" />
@@ -84,7 +84,7 @@ const Productive = () => {
             borderRadius='7px'
             backgroundColor='white'
             boxShadow='0px 0px 15px 0.5px #e7e7e9'
-            mx={{base: 'auto', lg: '0px'}}>
+            mx={{sm: 'auto', lg: '0px'}}>
                 <img className='quotes' src={Quotes} alt="" />
                 <Text
                 className='testimonial'

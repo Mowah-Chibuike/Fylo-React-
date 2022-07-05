@@ -16,7 +16,7 @@ const Hero = () => {
           <Box 
             className='hero-main'
             display={{sm: 'flex', lg:'flex'}}
-            flexDirection={{sm: 'column', lg: 'reverse'}}
+            flexDirection={{sm: 'column', lg: 'row-reverse'}}
             justifyContent={{sm: 'center', lg:'center'}}
             alignItems={{sm:'center', lg:'center'}}
             w='100%' 
@@ -25,13 +25,13 @@ const Hero = () => {
             mt='5rem'>
             <img className='hero-image' src={first} alt="" />
             <Box
-            w={{lg: '40%'}}
-            mr={{lg: '30px'}}>
+            w={{sm: '100%', lg: '40%'}}
+            mr={{sm:'0px', lg: '30px'}}>
             <Text 
               className='hero-text1'
               fontSize='2rem'
               lineHeight='2.5rem'
-              textAlign={{ lg: 'left'}}
+              textAlign={{sm:'center', lg: 'left'}}
               
               >
                 All your files in one secure location, accessible anywhere.
@@ -39,7 +39,7 @@ const Hero = () => {
             <Text
             className='paragraph'
             fontSize='1rem'
-            textAlign={{lg: 'left'}}
+            textAlign={{sm:'center', lg: 'left'}}
             mt={{base: '25px'}}>
               Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</Text>
             <InputEl content='Get Started' placeholder='Enter your email' lgButtonWidth='30%' flexDirection='row' marginLeft='20px'/>
