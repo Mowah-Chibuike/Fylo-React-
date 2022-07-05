@@ -1,0 +1,22 @@
+.whiteLogo {
+  height: 50px;
+}
+
+.footer-link {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  width: 15px;
+  height: 15px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: 0.5s ease;
+}
+
+.social-icons:hover {
+  color: blue;
+}

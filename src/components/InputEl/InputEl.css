@@ -1,0 +1,45 @@
+.input-el {
+  width: 100%;
+}
+
+.input-box {
+  width: 100%;
+  margin: 25px 0 20px;
+  text-align: left;
+}
+
+.input-box p {
+  color: red;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+}
+.input-el input {
+  width: 100%;
+  padding: 8px 20px;
+  border: 1px solid #c0bcd7;
+  border-radius: 2px;
+  color: black;
+}
+
+.input-el input:focus {
+  outline: none;
+}
+
+.input-el input::placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .input-el {
+    display: flex;
+    flex-direction: row;
+    justify-content: justify;
+    align-items: center;
+  }
+
+  .input-el input {
+    width: 100%;
+    margin-right: auto;
+  }
+}
